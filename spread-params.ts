@@ -6,7 +6,7 @@
 // }
 
 // typescript
-let displayColorsSpread = function(messageSpread,...colors: string[]){
+let displayColorsSpread = function(messageSpread:string,...colors: string[]){
     console.log(messageSpread);
     for(let i in colors){
         console.log(colors[i]);
